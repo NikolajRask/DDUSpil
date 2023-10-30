@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/War Music! Legendary Сinematic Soundtrack! Epic instrumental.mp3-a4a087fb22410c2e7eab4c0d6801d531.mp3str"
+
+[deps]
+
+source_file="res://War Music! Legendary Сinematic Soundtrack! Epic instrumental.mp3"
+dest_files=[ "res://.import/War Music! Legendary Сinematic Soundtrack! Epic instrumental.mp3-a4a087fb22410c2e7eab4c0d6801d531.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

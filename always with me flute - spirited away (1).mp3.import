@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/always with me flute - spirited away (1).mp3-81ddf2f56a633240f43da4ab5e000a56.mp3str"
+
+[deps]
+
+source_file="res://always with me flute - spirited away (1).mp3"
+dest_files=[ "res://.import/always with me flute - spirited away (1).mp3-81ddf2f56a633240f43da4ab5e000a56.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

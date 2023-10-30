@@ -1,0 +1,257 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://art/Skærmbillede 2023-10-10 kl. 09.41.33.png" type="Texture" id=1]
+[ext_resource path="res://StartScreen.gd" type="Script" id=2]
+[ext_resource path="res://art/Skærmbillede 2023-10-10 kl. 09.55.36.png" type="Texture" id=3]
+[ext_resource path="res://art/Skærmbillede 2023-10-10 kl. 09.55.47.png" type="Texture" id=4]
+[ext_resource path="res://joystix/joystix monospace.otf" type="DynamicFontData" id=5]
+[ext_resource path="res://Greatest VGM 6602_ Azalea Town (Pokemon HeartGoldSoulSilver)-kopi.mp3" type="AudioStream" id=6]
+[ext_resource path="res://baggrund.gd" type="Script" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+size = 44
+font_data = ExtResource( 5 )
+
+[node name="StartScreen" type="Node2D"]
+position = Vector2( 0, -5 )
+scale = Vector2( 1.5, 1.5 )
+script = ExtResource( 2 )
+
+[node name="Node2D" type="Node2D" parent="."]
+show_behind_parent = true
+position = Vector2( -182, -100.667 )
+z_index = -5
+script = ExtResource( 7 )
+
+[node name="Sprite" type="Sprite" parent="Node2D"]
+position = Vector2( 1942, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite2" type="Sprite" parent="Node2D"]
+position = Vector2( 1482.67, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite3" type="Sprite" parent="Node2D"]
+position = Vector2( 1016, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite4" type="Sprite" parent="Node2D"]
+position = Vector2( 556.667, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite5" type="Sprite" parent="Node2D"]
+position = Vector2( 89.3325, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite6" type="Sprite" parent="Node2D"]
+position = Vector2( -369.997, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite7" type="Sprite" parent="Node2D"]
+position = Vector2( -836.667, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite8" type="Sprite" parent="Node2D"]
+position = Vector2( -1296, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite9" type="Sprite" parent="Node2D"]
+position = Vector2( -1761.33, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite10" type="Sprite" parent="Node2D"]
+position = Vector2( -2220.66, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite11" type="Sprite" parent="Node2D"]
+position = Vector2( -2687.33, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite12" type="Sprite" parent="Node2D"]
+position = Vector2( -3146.67, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite13" type="Sprite" parent="Node2D"]
+position = Vector2( -3614, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite14" type="Sprite" parent="Node2D"]
+position = Vector2( -4073.33, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite15" type="Sprite" parent="Node2D"]
+position = Vector2( -4540, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite16" type="Sprite" parent="Node2D"]
+position = Vector2( -4999.33, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite17" type="Sprite" parent="Node2D"]
+position = Vector2( -5465.33, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite18" type="Sprite" parent="Node2D"]
+position = Vector2( -5924.66, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite19" type="Sprite" parent="Node2D"]
+position = Vector2( -6391.33, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite20" type="Sprite" parent="Node2D"]
+position = Vector2( -6850.67, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite21" type="Sprite" parent="Node2D"]
+position = Vector2( -7318, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite22" type="Sprite" parent="Node2D"]
+position = Vector2( -7777.33, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite23" type="Sprite" parent="Node2D"]
+position = Vector2( -8244, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite24" type="Sprite" parent="Node2D"]
+position = Vector2( -8703.33, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite25" type="Sprite" parent="Node2D"]
+position = Vector2( -9168.67, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite26" type="Sprite" parent="Node2D"]
+position = Vector2( -9628, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite27" type="Sprite" parent="Node2D"]
+position = Vector2( -10094.7, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite28" type="Sprite" parent="Node2D"]
+position = Vector2( -10554, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite29" type="Sprite" parent="Node2D"]
+position = Vector2( -11021.3, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite30" type="Sprite" parent="Node2D"]
+position = Vector2( -11480.7, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite31" type="Sprite" parent="Node2D"]
+position = Vector2( -11947.3, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Sprite32" type="Sprite" parent="Node2D"]
+position = Vector2( -12406.7, 638 )
+scale = Vector2( 0.347654, 0.306526 )
+texture = ExtResource( 1 )
+offset = Vector2( -3762.36, -1093.03 )
+
+[node name="Start" type="Button" parent="."]
+self_modulate = Color( 0, 0, 0, 0 )
+margin_left = 260.667
+margin_top = 177.333
+margin_right = 398.667
+margin_bottom = 258.333
+rect_scale = Vector2( 1.2386, 0.912842 )
+
+[node name="Sprite" type="Sprite" parent="Start"]
+position = Vector2( 71.048, 43.0889 )
+scale = Vector2( 0.278991, 0.403783 )
+texture = ExtResource( 3 )
+
+[node name="Quit" type="Button" parent="."]
+self_modulate = Color( 0, 0, 0, 0 )
+margin_left = 255.333
+margin_top = 288.0
+margin_right = 382.333
+margin_bottom = 353.0
+rect_scale = Vector2( 1.55341, 1.16084 )
+
+[node name="Sprite2" type="Sprite" parent="Quit"]
+position = Vector2( 61.7137, 34.5302 )
+scale = Vector2( 0.261192, 0.323384 )
+texture = ExtResource( 4 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+autoplay = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 140.667
+margin_top = 18.6667
+margin_right = 613.667
+margin_bottom = 111.667
+custom_fonts/normal_font = SubResource( 1 )
+text = "Zlime-2-rama"
+
+[connection signal="pressed" from="Start" to="." method="_on_Start_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

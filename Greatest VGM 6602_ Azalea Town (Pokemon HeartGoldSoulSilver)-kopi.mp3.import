@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Greatest VGM 6602_ Azalea Town (Pokemon HeartGoldSoulSilver)-kopi.mp3-cee124c05a1974b515975d4dbda8cf3d.mp3str"
+
+[deps]
+
+source_file="res://Greatest VGM 6602_ Azalea Town (Pokemon HeartGoldSoulSilver)-kopi.mp3"
+dest_files=[ "res://.import/Greatest VGM 6602_ Azalea Town (Pokemon HeartGoldSoulSilver)-kopi.mp3-cee124c05a1974b515975d4dbda8cf3d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
